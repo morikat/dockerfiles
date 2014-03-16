@@ -39,6 +39,8 @@ RUN apt-get install -y -q mysql-client libmysqld-dev
 RUN apt-get install -y -q postgresql-client libpq-dev
 ## sqlite
 RUN apt-get install -y -q libsqlite3-dev
+## file zip
+RUN apt-get install -y  zip
 #RUN gem install mysql2 -v '0.3.13'
 #RUN eval "$(rbenv init -)"
 #RUN rbenv rehash
